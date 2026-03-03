@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fyzioterapie Liberec | Bc. Barbora Šestáková</title>
+    <meta name="description"
+        content="Profesionální fyzioterapie a rehabilitace v Liberci. Bc. Barbora Šestáková nabízí přes 20 let zkušeností, individuální přístup a moderní metody léčby pohybového aparátu.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Fyzioterapie Liberec | Bc. Barbora Šestáková">
+    <meta property="og:description"
+        content="Profesionální fyzioterapie a rehabilitace v Liberci. Přes 20 let zkušeností a individuální péče o vaše zdraví.">
+    <meta property="og:image" content="Obrazky/hero_pater.png">
+    <meta property="og:url" content="https://www.fyziosestakova.cz">
+    <meta property="og:type" content="website">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.fyziosestakova.cz">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="Obrazky/favi.svg">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container container-nav">
+            <a href="#" class="logo">
+                <img src="Obrazky/logo.svg" alt="Bc. Barbora Šestáková Logo">
+            </a>
+
+            <nav class="nav" id="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#sluzby">Služby</a></li>
+                    <li><a href="#o-mne">O mně</a></li>
+                    <li><a href="#kurzy">Kurzy</a></li>
+                    <li><a href="#metody">Metody</a></li>
+                    <li><a href="#cenik">Ceník</a></li>
+                    <li><a href="#kontakty">Kontakty</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-right">
+                <a href="tel:+420604566604" class="nav-phone">
+                    <i class="fa-solid fa-phone"></i> +420 604 566 604
+                </a>
+                <button class="hamburger" aria-label="Menu" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="subheadline">Fyzioterapie a&nbsp;rehabilitace Liberec –
+                        Bc.&nbsp;Barbora&nbsp;Šestáková</span>
+                    <h1 class="hero-title">Fyzioterapie - <span id="typing-text"></span><span
+                            class="typing-cursor">|</span></h1>
+                    <a href="#kontakty" class="btn btn-primary">
+                        <span class="btn-text-wrapper">
+                            <span class="btn-text">Objednat si termín</span>
+                            <span class="btn-text-clone" aria-hidden="true">Objednat si termín</span>
+                        </span>
+                        <span class="btn-icon-circle">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-image-bg"></div>
+                    <img src="Obrazky/hero_pater.png" alt="Bc. Barbora Šestáková - Fyzioterapie Liberec"
+                        class="hero-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- USP Section -->
+        <section class="usp-section">
+            <div class="container usp-grid">
+                <div class="usp-item">
+                    <div class="usp-icon">
+                        <img src="Obrazky/ikona_praxe.svg" alt="Ikona dlouholeté praxe" loading="lazy">
+                    </div>
+                    <div class="usp-text">
+                        <h3>Odborná praxe</h3>
+                        <p>Přes 20&nbsp;let zkušeností v&nbsp;oboru a&nbsp;neustálé vzdělávání v&nbsp;nejnovějších
+                            metodách.</p>
+                    </div>
+                </div>
+                <div class="usp-item">
+                    <div class="usp-icon">
+                        <img src="Obrazky/ikona_pece.svg" alt="Ikona individuální péče" loading="lazy">
+                    </div>
+                    <div class="usp-text">
+                        <h3>Individuální péče</h3>
+                        <p>Hledání příčin obtíží a&nbsp;srozumitelné vysvětlení postupu léčby pro každého klienta.</p>
+                    </div>
+                </div>
+                <div class="usp-item">
+                    <div class="usp-icon">
+                        <img src="Obrazky/ikona_terapie.svg" alt="Ikona komplexního přístupu" loading="lazy">
+                    </div>
+                    <div class="usp-text">
+                        <h3>Komplexní terapie</h3>
+                        <p>Široká škála metod od technik měkkých tkání až po specializované DNS koncepty.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- S čím vám pomohu -->
+        <section id="sluzby" class="section">
+            <div class="container services-grid">
+                <div class="services-visual">
+                    <img src="Obrazky/sluzby_1.jpg" alt="Fyzioterapie Liberec" class="services-img-large">
+                    <img src="Obrazky/sluzby_2.jpg" alt="Individuální přístup" class="services-img-small">
+                </div>
+                <div class="services-content">
+                    <span class="subheadline">Služby</span>
+                    <h2 class="section-title">S čím vám pomohu?</h2>
+                    <p class="services-intro">Sestavení individuálního programu dle kinesiologického rozboru:</p>
+                    <ul class="services-list">
+                        <li><i class="fa-solid fa-circle-check"></i> <span>Kinesiologické vyšetření</span></li>
+                        <li><i class="fa-solid fa-circle-check"></i> <span>Kompenzační cvičení na míru</span></li>
+                        <li><i class="fa-solid fa-circle-check"></i> <span>Korekce svalových dysfunkcí a funkčních
+                                poruch</span></li>
+                        <li><i class="fa-solid fa-circle-check"></i> <span>Instruktáž cviků (strečink, stabilizace,
+                                mobilizace)</span></li>
+                        <li><i class="fa-solid fa-circle-check"></i> <span>Relaxační cvičení a techniky</span></li>
+                        <li><i class="fa-solid fa-circle-check"></i> <span>Měkké techniky a masáže</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trápí vás -->
+        <section id="trapi" class="section section-sticky-stack">
+            <div class="container stack-grid">
+                <div class="stack-left">
+                    <span class="subheadline">Kdy se na mne obrátit</span>
+                    <h2 class="section-title">Trápí vás…</h2>
+                    <div class="stack-description">
+                        <p>Obrátit se na mne samozřejmě můžete i&nbsp;pokud nemáte žádné potíže
+                            a&nbsp;chtěli byste jen některé cviky zkonzultovat.</p>
+                        <p>Stejně tak, pokud vám obvodní či odborný lékař doporučí rehabilitaci. A&nbsp;nebo vás třeba
+                            jen občas bolí záda, a&nbsp;vy jste se rozhodli, že s&nbsp;tím konečně chcete něco udělat.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="stack-right">
+                    <div class="stack-card">
+                        <div class="card-icon"><img src="Obrazky/ikona_urazy.svg" alt="Ikona poúrazové stavy"></div>
+                        <h3>Poúrazové a pooperační stavy</h3>
+                        <p>Problémy s pohybovým aparátem po operaci (např. po zlomeninách či totálních endoprotézách,
+                            plastikách vazů), předoperační přípravná rehabilitace.</p>
+                    </div>
+
+                    <div class="stack-card">
+                        <div class="card-icon"><img src="Obrazky/ikona_bolestzad.svg" alt="Ikona bolesti zad"></div>
+                        <h3>Bolesti páteře a zad</h3>
+                        <p>Vertebrogenní potíže, akutní a chronické blokády, bolesti krční, hrudní a bederní páteře,
+                            bolestivá kostrč, stavy po výhřezu plotének po operacích páteře.</p>
+                    </div>
+
+                    <div class="stack-card">
+                        <div class="card-icon"><img src="Obrazky/ikona_neurologicke.svg"
+                                alt="Ikona neurologická onemocnění"></div>
+                        <h3>Degenerativní a neurologická onemocnění</h3>
+                        <p>Artrózy, periferní parézy, stavy po CMP, roztroušená skleróza a další chronické stavy.</p>
+                    </div>
+
+                    <div class="stack-card">
+                        <div class="card-icon"><img src="Obrazky/ikona_skolioza.svg" alt="Ikona vady držení těla"></div>
+                        <h3>Vady držení těla a skoliózy</h3>
+                        <p>Komplexní terapie vadného držení těla, skolióz a plochonoží u dětí i dospělých.</p>
+                    </div>
+
+                    <div class="stack-card">
+                        <div class="card-icon"><img src="Obrazky/ikona_ergonomie.svg" alt="Ikona ergonomie"></div>
+                        <h3>Přetížení a ergonomie</h3>
+                        <p>Syndrom karpálního tunelu, tenisový loket, prevence svalových dysbalancí a poradenství
+                            ohledně ergonomie pracoviště. Prevence a kompenzace svalových dysbalancí
+                            a bolestí způsobených jednostranným přetěžováním.</p>
+                    </div>
+
+                    <div class="stack-card">
+                        <div class="card-icon"><img src="Obrazky/ikona_posilovani.svg" alt="Ikona posilování"></div>
+                        <h3>Posilování</h3>
+                        <p>Poradenství s efektivním tréninkem při cvičení v posilovně.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rychlý kontakt (Expanding CTA) -->
+        <section class="expanding-cta-section">
+            <div class="card-boundary">
+                <div class="expanding-card" id="expanding-cta">
+                    <div class="cta-left">
+                        <img src="Obrazky/kontakt_info.jpg" alt="Objednat si termín u Bc. Barbory Šestákové">
+                    </div>
+                    <div class="cta-right">
+                        <h2 class="section-title">Domluvte si návštěvu</h2>
+                        <div class="cta-info-list">
+
+                            <div class="cta-info-item">
+                                <div class="cta-info-icon">
+                                    <img src="Obrazky/ikona_telefon.svg" alt="Ikona telefon">
+                                </div>
+                                <div class="cta-info-text">
+                                    <span class="cta-label">Zavolejte</span>
+                                    <a href="tel:+420604566604">+420 604 566 604</a>
+                                </div>
+                            </div>
+
+                            <div class="cta-info-item">
+                                <div class="cta-info-icon">
+                                    <img src="Obrazky/ikona_mail.svg" alt="Ikona e-mail">
+                                </div>
+                                <div class="cta-info-text">
+                                    <span class="cta-label">Napište</span>
+                                    <a href="mailto:barbora.sestakova@gmail.com">barbora.sestakova@gmail.com</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <p class="cta-note">Těším se na vaši zprávu nebo telefonát. Společně najdeme řešení vašich
+                            obtíží.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- O mně -->
+        <section id="o-mne" class="section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-content">
+                        <span class="subheadline">O mně</span>
+                        <h2 class="section-title">Bc. Barbora Šestáková</h2>
+                        <p>Jsem fyzioterapeutka s&nbsp;více než dvacetiletou praxí. Vystudovala jsem fyzioterapii na
+                            2.&nbsp;lékařské fakultě Univerzity Karlovy v&nbsp;Praze a&nbsp;dříve také ergoterapii na
+                            1.&nbsp;lékařské fakultě UK. Osvědčení k&nbsp;výkonu zdravotnického povolání bez odborného
+                            dohledu jsem získala v&nbsp;roce 2011.</p>
+                        <p>Zkušenosti jsem získala ve Fakultní nemocnici Bulovka, v&nbsp;soukromém rehabilitačním
+                            zařízení v&nbsp;Praze a&nbsp;od&nbsp;roku 2012 působím v&nbsp;Centru léčebné rehabilitace
+                            v&nbsp;Liberci. Při práci kladu důraz na individuální přístup, hledání příčin obtíží
+                            a&nbsp;srozumitelné vysvětlení postupu léčby, aby klient věděl, co a&nbsp;proč děláme.</p>
+                    </div>
+                    <div class="about-graphic">
+                        <img src="Obrazky/omne.jpg" alt="Bc. Barbora Šestáková" class="about-img">
+                        <div class="experience-badge">
+                            <div class="badge-icon">
+                                <img src="Obrazky/ikona_zkusenosti.svg" alt="Ikona zkušenosti">
+                            </div>
+                            <div class="badge-text">
+                                <span class="exp-number">20+</span>
+                                <span class="exp-text">let zkušeností</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kurzy -->
+        <section id="kurzy" class="section">
+            <div class="container">
+                <span class="subheadline">Absolvované kurzy</span>
+                <h2 class="section-title">Jakou mám certifikaci?</h2>
+                <div class="accordion-container">
+                    <!-- 1. Dýchání a postura -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>Dýchání a postura</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-body">
+                            <ul class="course-list">
+                                <li>Dýchání v&nbsp;kontextu centrované postury, 2007</li>
+                                <li>Dýchání jako prostředek terapie, 2008</li>
+                                <li>Fyzioterapie hlubokého stabilizačního systému, 2015</li>
+                                <li>Jak na poruchy dýchání, plicní rehabilitace (PhD.&nbsp;Kateřina&nbsp;Neumannová),
+                                    2019</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 2. Páteř a klouby -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>Páteř a klouby</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-body">
+                            <ul class="course-list">
+                                <li>Komplexní terapie krční páteře, 2007</li>
+                                <li>Komplexní terapie bederní páteře a&nbsp;pánevního pletence, 2009</li>
+                                <li>Diagnostika a&nbsp;kinesioterapie u&nbsp;idiopatické skoliózy u&nbsp;dětí
+                                    i&nbsp;dospělých, 2014</li>
+                                <li>Využití aktivní segmentální centrace u&nbsp;poúrazových a&nbsp;pooperačních stavů
+                                    končetin, 2016</li>
+                                <li>Diagnostika a&nbsp;terapie poškození kolenního kloubu (Mudr&nbsp;R.Frei), 2019</li>
+                                <li>Diagnostika a&nbsp;fyzioterapie kolenního kloubu (Rehalab), 2021</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 3. Diagnostika a terapie -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>Diagnostika a terapie</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-body">
+                            <ul class="course-list">
+                                <li>Diagnostika a&nbsp;terapie funkčních poruch, 2008</li>
+                                <li>Fyzioterapie funkce v&nbsp;klinické práci, 2011</li>
+                                <li>Komplexní terapie trigger pointů a&nbsp;globální reciproční svalová inhibice
+                                    (PhD.&nbsp;Petr&nbsp;Bitnar), 2016</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 4. Pánev a břicho -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>Pánev a břicho</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-body">
+                            <ul class="course-list">
+                                <li>Viscerovertebrální vztahy, 2015</li>
+                                <li>Pánev v&nbsp;globálním pohledu, 2024</li>
+                                <li>Pánev a&nbsp;SI kloub v&nbsp;józe, 2024</li>
+                                <li>Poruchy trávicího aparátu a&nbsp;jejich rhb řešení, 2024</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 5. Horní končetiny -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>Horní končetiny</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-body">
+                            <ul class="course-list">
+                                <li>Komplexní rehabilitace ruky, 2013</li>
+                                <li>Individuální dlahování v&nbsp;terapii ruky, 2013</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 6. Speciální metody a cvičení -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>Speciální metody a cvičení</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-body">
+                            <ul class="course-list">
+                                <li>Terapeutické využití kinesiotape (kinesiotaping), 2011</li>
+                                <li>Metodika senzomotorické stimulace, 2014</li>
+                                <li>Rotace: zdroj vitality, prevence zranění, 2024</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 7. Gynekologie a pánevní dno -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>Gynekologie a pánevní dno</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-body">
+                            <ul class="course-list">
+                                <li>Fyzioterapie u&nbsp;dysfunkce pánevního dna a&nbsp;inkontinence, 2016</li>
+                                <li>Rehabilitační léčba některých druhů ženské sterility metodou Ludmily Mojžíškové,
+                                    2017</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 8. DNS koncept -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>DNS koncept</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-body">
+                            <ul class="course-list">
+                                <li>DNS sport a&nbsp;fitness, část 1, (Rehabilitation Prague School), 2017</li>
+                                <li>DNS Fit Kid (DNS pro děti, Rehabilitation Prague School), 2019</li>
+                                <li>DNS běžecký speciál (Rehabilitation Prague School), 2022</li>
+                                <li>DNS Pánevní dno (Rehabilitation Prague School), 2024</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Metody a techniky s videem -->
+        <section id="metody" class="metody-video-wrapper">
+            <div class="video-section">
+                <video autoplay muted loop playsinline class="video-background">
+                    <source src="Video/metody.webm" type="video/webm">
+                    <source src="Video/metody.mp4" type="video/mp4">
+                </video>
+                <div class="video-overlay"></div>
+            </div>
+
+            <div class="methods-list-section">
+                <div class="container">
+                    <span class="subheadline">Léčebná terapie</span>
+                    <h2 class="section-title">Jaké využívám metody a postupy?</h2>
+                    <div class="methods-categories-grid">
+                        <div class="method-category">
+                            <div class="category-icon">
+                                <img src="Obrazky/ikona_reflexni.svg" alt="Manuální techniky">
+                            </div>
+                            <h4>Manuální techniky</h4>
+                            <ul class="custom-list">
+                                <li><i class="fa-solid fa-circle-check"></i>
+                                    Techniky měkkých tkání, mobilizace kloubů a&nbsp;páteře</li>
+                                <li><i class="fa-solid fa-circle-check"></i>
+                                    Relaxační a&nbsp;reflexní masáže (zády, nohy)</li>
+                                <li><i class="fa-solid fa-circle-check"></i>
+                                    Lymfodrenáž a&nbsp;baňkování</li>
+                            </ul>
+                        </div>
+
+                        <div class="method-category">
+                            <div class="category-icon">
+                                <img src="Obrazky/ikona_cviceni.svg" alt="Aktivní terapie">
+                            </div>
+                            <h4>Aktivní terapie</h4>
+                            <ul class="custom-list">
+                                <li><i class="fa-solid fa-circle-check"></i>
+                                    Práce s&nbsp;hlubokým stabilizačním systémem (HSS)</li>
+                                <li><i class="fa-solid fa-circle-check"></i>
+                                    Léčebná tělesná výchova a&nbsp;balanční cvičení</li>
+                                <li><i class="fa-solid fa-circle-check"></i>
+                                    Senzometrická stimulace a&nbsp;korekce pohybu</li>
+                            </ul>
+                        </div>
+
+                        <div class="method-category">
+                            <div class="category-icon">
+                                <img src="Obrazky/ikona_panev.svg" alt="Specializovaná péče">
+                            </div>
+                            <h4>Specializovaná péče</h4>
+                            <ul class="custom-list">
+                                <li><i class="fa-solid fa-circle-check"></i>
+                                    Gynekologická fyzioterapie (metoda Mojžíšové)</li>
+                                <li><i class="fa-solid fa-circle-check"></i>
+                                    Posílení svalstva pánevního dna a&nbsp;viscerální terapie</li>
+                                <li><i class="fa-solid fa-circle-check"></i>
+                                    Prvky z&nbsp;metod Kabat, Vojta a&nbsp;Brügger</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ceník -->
+        <section id="cenik" class="section">
+            <div class="container">
+                <span class="subheadline">Ceník</span>
+                <h2 class="section-title">Kolik fyzioterapie stojí?</h2>
+                <div class="pricing-card">
+                    <div class="price-item">
+                        <span>60 minut</span>
+                        <span class="dots"></span>
+                        <span class="price">900&nbsp;Kč</span>
+                    </div>
+                    <div class="price-item">
+                        <span>30 minut</span>
+                        <span class="dots"></span>
+                        <span class="price">450&nbsp;Kč</span>
+                    </div>
+                    <p class="pricing-note">Nejsme smluvní zařízení žádné pojišťovny, a&nbsp;nejsme proto schopni
+                        přijímat žádanky na rehabilitaci. Služby poskytujeme za přímou platbu, buď hotově, či kartou, po
+                        dohodě případně též na fakturu (fond kulturních a&nbsp;sociálních potřeb, atp.).</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="recenze" class="section">
+        <div class="container reviews-grid-container">
+            <div class="reviews-visual">
+                <img src="Obrazky/reference.jpg" alt="Spokojení klienti fyzioterapie">
+            </div>
+            <div class="reviews-content">
+                <span class="subheadline">Reference</span>
+                <h2 class="section-title">Co říkají klienti?</h2>
+
+                <div class="reviews-carousel">
+                    <div class="reviews-track">
+                        <div class="review-slide active">
+                            <div class="review-stars">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                            <p>Po první návštěvě mám skvělý pocit. Profesionální a milý přístup.
+                                Už dlouho jsem se nikde necítila tak dobře. Paní Šestáková vyslechne problémy, poradí,
+                                vysvětlí, zopakuje.
+                                Doporučuji.</p>
+                            <span class="review-author">Lenka P.</span>
+                        </div>
+                        <div class="review-slide">
+                            <div class="review-stars">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                            <p>Paní Šestáková, mi moc pomohla se zbavit bolesti v kříži, které mně
+                                trápily dlouhou dobu, moc příjemná a milá...jen doporučuji.</p>
+                            <span class="review-author">Mariana Rapava</span>
+                        </div>
+
+                        <div class="review-slide">
+                            <div class="review-stars">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                            <p>Rozhodně nejlepší v Liberci. Pokud potřebujete opravdu odborně poradit, tak jedině sem.
+                            </p>
+                            <span class="review-author">Klient</span>
+                        </div>
+                    </div>
+
+                    <div class="carousel-nav">
+                        <button class="carousel-prev" aria-label="Předchozí recenze">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                        <button class="carousel-next" aria-label="Další recenze">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="google-badge-container">
+                    <a href="https://www.google.com/search?sca_esv=11f77b5468a41098&rlz=1C1ASUM_csCZ911CZ911&hl=cs-CZ&sxsrf=ANbL-n5kzzO1jTyA8hQMzvF2_Bb2dTbzUw:1772208815714&q=Liberec,+Bc.+Barbora+Recenze&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOe6L4n-4xxIpOjUVnvTbY9Tvr7RTPkBiLHlG7IXryh7RsxQqJugY8uzRQ9B8lg2Kg5NeNgQ%3D&uds=ALYpb_l6DyU7gEufbC-T-1UgqmR0HwY-NyIcnZoSB9-j8woz-LFB31akhLdUYhStBqblkuNLaUzg4JqNi6ElTgZrQzZbPcpMWw_PA84TbQm2kv-d4WSOLTfgqk7IRIMQs6zjI3EyglRH&sa=X&ved=2ahUKEwj9wLaniPqSAxXbR_EDHVXOJR4Q3PALegQIMhAF&cshid=1772208824021515&biw=1595&bih=858&dpr=1"
+                        target="_blank" class="google-link">Zobrazit všechny recenze
+                        na Google</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kontakty" class="footer">
+        <div class="container footer-grid">
+            <div class="footer-contact">
+                <h3>Kontakty</h3>
+                <p>Bc.&nbsp;Barbora&nbsp;Šestáková</p>
+                <p class="mt-footer"><img src="Obrazky/ikona_telefon.svg" alt="Telefon" class="footer-icon"><a
+                        href="tel:+420604566604">+420 604 566 604</a></p>
+                <p><img src="Obrazky/ikona_mail.svg" alt="E-mail" class="footer-icon"><a
+                        href="mailto:barbora.sestakova@gmail.com">barbora.sestakova@gmail.com</a></p>
+                <br>
+                <p>IČO: 69524262</p>
+                <p>Sídlo: Sáňkařská 448, 460&nbsp;08 Liberec</p>
+                <p class="mt-footer-small">Fyzická osoba zapsaná v&nbsp;živnostenském rejstříku.</p>
+
+            </div>
+
+            <div class="footer-location">
+                <h3>Kde mě najdete?</h3>
+                <p>Kostelní 10/5, 460&nbsp;01 Liberec&nbsp;II</p>
+                <p class="location-desc">Ordinaci najdete v&nbsp;paláci Sponer v&nbsp;Kostelní ulici, hned vedle Kafé
+                    Kytka.</p>
+                <p class="parking">Váš vůz můžete zaparkovat na placeném parkovišti přímo na Sokolovském náměstí.
+                    Krátkodobě lze zdarma parkovat v&nbsp;nedalekém obchodním centru Plaza.</p>
+            </div>
+
+            <div class="footer-map">
+                <div class="map-placeholder">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2524.573136248383!2d15.0577777770851!3d50.77124977165518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47093690623a1097%3A0xe6a8a3a0c0c6e1!2zS29zdGVsbsOtIDEwLzUsIDQ2MCAwMSBMaWJlcmVjIDItU3RhcsOpIE3Em3N0bw!5e0!3m2!1scs!2scz!4v1700000000000!5m2!1scs!2scz"
+                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>Copyright &copy; <span id="current-year"></span></p>
+            <p>Web vytvořila <a href="https://maresanka.cz/" target="_blank" rel="noopener noreferrer">maresanka.cz</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Cookie bar -->
+    <div id="cookie-bar" class="cookie-bar">
+        <p>Tento web používá cookies pro správné fungování. Více v&nbsp;<a href="zasady-cookies.html">Zásady cookies</a>
+            a&nbsp;<a href="zasady-ochrany-osobnich-udaju.html">Zásady ochrany osobních údajů</a>.</p>
+        <div class="cookie-buttons">
+            <button id="cookie-accept" class="btn btn-primary btn-sm">Přijmout vše</button>
+            <button id="cookie-reject" class="btn btn-outline btn-sm">Odmítnout vše</button>
+            <button id="cookie-prefs" class="btn btn-outline btn-sm">Předvolby</button>
+        </div>
+    </div>
+
+    <!-- Cookie toggle -->
+    <button id="cookie-toggle" class="cookie-toggle" aria-label="Nastavení cookies" title="Nastavení cookies">
+        <i class="fa-solid fa-cookie-bite"></i>
+    </button>
+
+    <!-- Cookie Preferences Modal -->
+    <div id="cookie-prefs-modal" class="cookie-modal-overlay">
+        <div class="cookie-modal">
+            <div class="cookie-modal-header">
+                <h3>Nastavení ochrany soukromí</h3>
+                <button id="close-cookie-modal" class="close-modal-btn" aria-label="Zavřít">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="cookie-modal-body">
+                <p>Tento web používá cookies pro správné fungování. Více v&nbsp;<a href="zasady-cookies.html">Zásady
+                        cookies</a>
+                    a&nbsp;<a href="zasady-ochrany-osobnich-udaju.html">Zásady ochrany osobních údajů</a>.</p>
+
+                <div class="cookie-category">
+                    <div class="cookie-category-header">
+                        <div class="cookie-category-title">
+                            <h4>Nezbytné cookies</h4>
+                            <span class="cookie-status always-active">Vždy aktivní</span>
+                        </div>
+                        <p>Základní cookies umožňují základní funkce webu, jako je přihlášení uživatele nebo správa
+                            účtu. Web bez těchto cookies nemůže správně fungovat.</p>
+                    </div>
+                </div>
+
+                <div class="cookie-category">
+                    <div class="cookie-category-header">
+                        <div class="cookie-category-title">
+                            <h4>Analytické cookies</h4>
+                            <label class="cookie-toggle-switch">
+                                <input type="checkbox" id="toggle-analytics">
+                                <span class="cookie-slider"></span>
+                            </label>
+                        </div>
+                        <p>Analytické cookies se používají pro sledování návštěvníků na webu a pro sledování využití
+                            našeho webu (pomáhají nám např. pochopit, jaký obsah se vám nejvíce líbí).</p>
+                    </div>
+                </div>
+
+                <div class="cookie-category">
+                    <div class="cookie-category-header">
+                        <div class="cookie-category-title">
+                            <h4>Marketingové cookies</h4>
+                            <label class="cookie-toggle-switch">
+                                <input type="checkbox" id="toggle-marketing">
+                                <span class="cookie-slider"></span>
+                            </label>
+                        </div>
+                        <p>Slouží k identifikaci návštěvníků napříč weby a usnadňují zobrazovat reklamy, které jsou
+                            relevantní pro konkrétního uživatele.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cookie-modal-footer">
+                <button id="save-cookie-prefs" class="btn btn-primary btn-sm btn-full">Uložit moje volby</button>
+                <div class="cookie-footer-actions">
+                    <button id="cookie-accept-all-modal" class="btn btn-outline btn-sm">Přijmout vše</button>
+                    <button id="cookie-reject-all-modal" class="btn btn-outline btn-sm">Odmítnout vše</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Fyzioterapie - Bc. Barbora Šestáková",
+      "image": "https://www.fyziosestakova.cz/Obrazky/logo.svg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Kostelní 10/5",
+        "addressLocality": "Liberec",
+        "postalCode": "460 01",
+        "addressCountry": "CZ"
+      },
+      "telephone": "+420 604 566 604",
+      "email": "barbora.sestakova@gmail.com",
+      "url": "https://www.fyziosestakova.cz",
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "08:00",
+        "closes": "17:00"
+      }
+    }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
