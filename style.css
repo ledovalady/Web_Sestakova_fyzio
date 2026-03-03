@@ -637,6 +637,16 @@ img {
     align-items: center;
     gap: 1.5rem;
     text-align: left;
+    padding: 1rem;
+    border-radius: var(--radius);
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+.usp-item:focus-visible {
+    border-color: var(--cta);
+    box-shadow: 0 0 0 4px rgba(0, 194, 169, 0.3);
 }
 
 .usp-icon {
@@ -658,9 +668,12 @@ img {
     transform: scale(1.1);
 }
 
-.usp-text h3 {
+.usp-text .usp-heading {
     margin-bottom: 1rem;
     font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.2;
+    display: block;
 }
 
 .usp-text p {
@@ -735,7 +748,14 @@ img {
     border-radius: 30px;
     border: 1px solid #E2E8F0;
     /* Jemný šedý border */
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+    /* Odstraníme defaultní focus ring */
+}
+
+.stack-card:focus-visible {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 4px rgba(0, 128, 137, 0.2);
 }
 
 /* Karty se skládají přímo na sebe do stejné pozice */
@@ -1142,6 +1162,16 @@ img {
     gap: 1.2rem;
     padding-left: 0;
     /* Zarovnání s nadpisem */
+    padding: 1rem;
+    border-radius: var(--radius);
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+.services-list:focus-visible {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 4px rgba(0, 128, 137, 0.2);
 }
 
 .services-list li {
@@ -1388,6 +1418,19 @@ img {
     margin-left: 0;
 }
 
+.about-content {
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    outline: none;
+    border: 1px solid transparent;
+    padding: 1rem;
+    border-radius: var(--radius);
+}
+
+.about-content:focus-visible {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 4px rgba(0, 128, 137, 0.2);
+}
+
 .about-graphic {
     position: relative;
     height: 500px;
@@ -1464,6 +1507,14 @@ img {
     padding: 4rem;
     border-radius: var(--radius);
     box-shadow: 0 30px 60px var(--shadow);
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+.pricing-card:focus-visible {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 4px rgba(0, 128, 137, 0.2);
 }
 
 .price-item {
@@ -1943,6 +1994,20 @@ input:checked+.cookie-slider:before {
     height: 60px;
     width: auto;
     object-fit: contain;
+}
+
+.method-category {
+    padding: 1.5rem;
+    border-radius: var(--radius);
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+.method-category:focus-visible {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 4px rgba(0, 128, 137, 0.2);
+    background: var(--white);
 }
 
 .method-category h4 {
